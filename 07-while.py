@@ -3,6 +3,6 @@
 #    print(numero)
 #    numero *= 2
 comando =""
-while comando != "salir":
+while comando.lower() != "salir":
     comando = input("$ ")
     print(comando)
